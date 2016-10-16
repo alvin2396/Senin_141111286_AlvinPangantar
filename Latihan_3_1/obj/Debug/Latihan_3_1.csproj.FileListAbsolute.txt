@@ -1,0 +1,12 @@
+D:\Kuliah\C# Lanjutan\Senin_141111286_AlvinPangantar_Solution\Latihan_3_1\bin\Debug\Latihan_3_1.exe.config
+D:\Kuliah\C# Lanjutan\Senin_141111286_AlvinPangantar_Solution\Latihan_3_1\bin\Debug\Latihan_3_1.exe
+D:\Kuliah\C# Lanjutan\Senin_141111286_AlvinPangantar_Solution\Latihan_3_1\bin\Debug\Latihan_3_1.pdb
+D:\Kuliah\C# Lanjutan\Senin_141111286_AlvinPangantar_Solution\Latihan_3_1\obj\Debug\Latihan_3_1.csprojResolveAssemblyReference.cache
+D:\Kuliah\C# Lanjutan\Senin_141111286_AlvinPangantar_Solution\Latihan_3_1\obj\Debug\Latihan_3_1.Form1.resources
+D:\Kuliah\C# Lanjutan\Senin_141111286_AlvinPangantar_Solution\Latihan_3_1\obj\Debug\Latihan_3_1.Properties.Resources.resources
+D:\Kuliah\C# Lanjutan\Senin_141111286_AlvinPangantar_Solution\Latihan_3_1\obj\Debug\Latihan_3_1.csproj.GenerateResource.Cache
+D:\Kuliah\C# Lanjutan\Senin_141111286_AlvinPangantar_Solution\Latihan_3_1\obj\Debug\Latihan_3_1.exe
+D:\Kuliah\C# Lanjutan\Senin_141111286_AlvinPangantar_Solution\Latihan_3_1\obj\Debug\Latihan_3_1.pdb
+D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\Latihan_3_1\bin\Debug\Latihan_3_1.exe.config
+D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\Latihan_3_1\obj\Debug\Latihan_3_1.exe
+D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\Latihan_3_1\obj\Debug\Latihan_3_1.pdb
