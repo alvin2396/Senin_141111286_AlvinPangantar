@@ -95,5 +95,12 @@ namespace Latihan_3_1
             }
             richTextBox1.SelectionFont = new1;
         }
+
+        private void warnabtn_Click(object sender, EventArgs e)
+        {
+            var warna = new ColorDialog();
+            warna.ShowDialog();
+            richTextBox1.ForeColor = warna.Color;
+        }
     }
 }

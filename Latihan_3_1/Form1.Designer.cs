@@ -38,6 +38,7 @@
             this.boldbtn = new System.Windows.Forms.ToolStripButton();
             this.italicbtn = new System.Windows.Forms.ToolStripButton();
             this.underbtn = new System.Windows.Forms.ToolStripButton();
+            this.warnabtn = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -127,11 +128,22 @@
             this.underbtn.Text = "underbtn";
             this.underbtn.Click += new System.EventHandler(this.underbtn_Click);
             // 
+            // warnabtn
+            // 
+            this.warnabtn.Location = new System.Drawing.Point(399, 1);
+            this.warnabtn.Name = "warnabtn";
+            this.warnabtn.Size = new System.Drawing.Size(45, 21);
+            this.warnabtn.TabIndex = 6;
+            this.warnabtn.Text = "Color";
+            this.warnabtn.UseVisualStyleBackColor = true;
+            this.warnabtn.Click += new System.EventHandler(this.warnabtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(517, 261);
+            this.Controls.Add(this.warnabtn);
             this.Controls.Add(this.combosize);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -159,6 +171,7 @@
         private System.Windows.Forms.ToolStripButton boldbtn;
         private System.Windows.Forms.ToolStripButton italicbtn;
         private System.Windows.Forms.ToolStripButton underbtn;
+        private System.Windows.Forms.Button warnabtn;
     }
 }
 
