@@ -1,4 +1,4 @@
-﻿namespace Latihan_4_1
+﻿namespace Latihan_5_1
 {
     partial class Form1
     {
@@ -35,6 +35,10 @@
             this.toolbold = new System.Windows.Forms.ToolStripButton();
             this.toolitalic = new System.Windows.Forms.ToolStripButton();
             this.toolunder = new System.Windows.Forms.ToolStripButton();
+            this.combosize = new System.Windows.Forms.ToolStripComboBox();
+            this.combofont = new System.Windows.Forms.ToolStripComboBox();
+            this.combocolor = new System.Windows.Forms.ToolStripComboBox();
+            this.comboback = new System.Windows.Forms.ToolStripComboBox();
             this.boldbtn = new System.Windows.Forms.ToolStripButton();
             this.italicbtn = new System.Windows.Forms.ToolStripButton();
             this.underbtn = new System.Windows.Forms.ToolStripButton();
@@ -47,10 +51,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.combosize = new System.Windows.Forms.ToolStripComboBox();
-            this.combofont = new System.Windows.Forms.ToolStripComboBox();
-            this.combocolor = new System.Windows.Forms.ToolStripComboBox();
-            this.comboback = new System.Windows.Forms.ToolStripComboBox();
+            this.settingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -59,9 +61,10 @@
             // 
             this.richTextBox1.Location = new System.Drawing.Point(12, 101);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(815, 210);
+            this.richTextBox1.Size = new System.Drawing.Size(640, 210);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // label1
             // 
@@ -88,7 +91,7 @@
             this.underbtn});
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(673, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(642, 25);
             this.toolStrip1.TabIndex = 10;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -122,6 +125,34 @@
             this.toolunder.Text = "toolunderline";
             this.toolunder.Click += new System.EventHandler(this.toolunder_Click);
             // 
+            // combosize
+            // 
+            this.combosize.Name = "combosize";
+            this.combosize.Size = new System.Drawing.Size(121, 25);
+            this.combosize.SelectedIndexChanged += new System.EventHandler(this.combosize_SelectedIndexChanged);
+            this.combosize.Click += new System.EventHandler(this.combosize_Click);
+            // 
+            // combofont
+            // 
+            this.combofont.Name = "combofont";
+            this.combofont.Size = new System.Drawing.Size(121, 25);
+            this.combofont.SelectedIndexChanged += new System.EventHandler(this.combofont_SelectedIndexChanged_1);
+            this.combofont.Click += new System.EventHandler(this.combofont_Click);
+            // 
+            // combocolor
+            // 
+            this.combocolor.Name = "combocolor";
+            this.combocolor.Size = new System.Drawing.Size(121, 25);
+            this.combocolor.SelectedIndexChanged += new System.EventHandler(this.combocolor_SelectedIndexChanged);
+            this.combocolor.Click += new System.EventHandler(this.combocolor_Click);
+            // 
+            // comboback
+            // 
+            this.comboback.Name = "comboback";
+            this.comboback.Size = new System.Drawing.Size(121, 25);
+            this.comboback.SelectedIndexChanged += new System.EventHandler(this.comboback_SelectedIndexChanged);
+            this.comboback.Click += new System.EventHandler(this.comboback_Click);
+            // 
             // boldbtn
             // 
             this.boldbtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -149,10 +180,11 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem});
+            this.fileToolStripMenuItem,
+            this.settingToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(839, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(653, 24);
             this.menuStrip1.TabIndex = 12;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -224,39 +256,27 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "Size";
             // 
-            // combosize
+            // settingToolStripMenuItem
             // 
-            this.combosize.Name = "combosize";
-            this.combosize.Size = new System.Drawing.Size(121, 25);
-            this.combosize.SelectedIndexChanged += new System.EventHandler(this.combosize_SelectedIndexChanged);
-            this.combosize.Click += new System.EventHandler(this.combosize_Click);
+            this.settingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.editorToolStripMenuItem});
+            this.settingToolStripMenuItem.Name = "settingToolStripMenuItem";
+            this.settingToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.settingToolStripMenuItem.Text = "Setting";
+            this.settingToolStripMenuItem.Click += new System.EventHandler(this.settingToolStripMenuItem_Click);
             // 
-            // combofont
+            // editorToolStripMenuItem
             // 
-            this.combofont.Name = "combofont";
-            this.combofont.Size = new System.Drawing.Size(121, 25);
-            this.combofont.SelectedIndexChanged += new System.EventHandler(this.combofont_SelectedIndexChanged_1);
-            this.combofont.Click += new System.EventHandler(this.combofont_Click);
-            // 
-            // combocolor
-            // 
-            this.combocolor.Name = "combocolor";
-            this.combocolor.Size = new System.Drawing.Size(121, 25);
-            this.combocolor.SelectedIndexChanged += new System.EventHandler(this.combocolor_SelectedIndexChanged);
-            this.combocolor.Click += new System.EventHandler(this.combocolor_Click);
-            // 
-            // comboback
-            // 
-            this.comboback.Name = "comboback";
-            this.comboback.Size = new System.Drawing.Size(121, 25);
-            this.comboback.SelectedIndexChanged += new System.EventHandler(this.comboback_SelectedIndexChanged);
-            this.comboback.Click += new System.EventHandler(this.comboback_Click);
+            this.editorToolStripMenuItem.Name = "editorToolStripMenuItem";
+            this.editorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.editorToolStripMenuItem.Text = "Editor";
+            this.editorToolStripMenuItem.Click += new System.EventHandler(this.editorToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(839, 323);
+            this.ClientSize = new System.Drawing.Size(653, 323);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label5);
@@ -279,7 +299,6 @@
 
         #endregion
 
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton boldbtn;
@@ -301,6 +320,9 @@
         private System.Windows.Forms.ToolStripComboBox combofont;
         private System.Windows.Forms.ToolStripComboBox combocolor;
         private System.Windows.Forms.ToolStripComboBox comboback;
+        private System.Windows.Forms.ToolStripMenuItem settingToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem editorToolStripMenuItem;
+        public System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 

@@ -8,8 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Reflection;
 
-namespace Latihan_4_1
+namespace Latihan_5_1
 {
     public partial class Form1 : Form
     {
@@ -228,6 +229,38 @@ namespace Latihan_4_1
         private void combocolor_SelectedIndexChanged(object sender, EventArgs e)
         {
             richTextBox1.SelectionColor = Color.FromName(combocolor.Text);
+
+        }
+        edit editor;
+        Form1 form;
+        private void editorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (editor == null || !editor.IsHandleCreated)
+            {
+                editor = new edit();
+                editor.MdiParent = form;
+                editor.BringToFront();
+                richTextBox1.SendToBack();
+                editor.Show();
+            }
+            else
+            {
+                editor.Show();
+            }
+        }
+
+        public void show()
+        {
+            richTextBox1.BringToFront();
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void settingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
 
         }
 

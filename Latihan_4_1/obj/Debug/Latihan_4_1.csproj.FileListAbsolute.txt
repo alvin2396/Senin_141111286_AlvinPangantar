@@ -1,9 +1,9 @@
 D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\Latihan_4_1\bin\Debug\Latihan_4_1.exe.config
-D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\Latihan_4_1\obj\Debug\Latihan_4_1.csprojResolveAssemblyReference.cache
-D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\Latihan_4_1\obj\Debug\Latihan_4_1.Properties.Resources.resources
-D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\Latihan_4_1\obj\Debug\Latihan_4_1.csproj.GenerateResource.Cache
 D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\Latihan_4_1\bin\Debug\Latihan_4_1.exe
 D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\Latihan_4_1\bin\Debug\Latihan_4_1.pdb
+D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\Latihan_4_1\obj\Debug\Latihan_4_1.csprojResolveAssemblyReference.cache
+D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\Latihan_4_1\obj\Debug\Latihan_4_1.Form1.resources
+D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\Latihan_4_1\obj\Debug\Latihan_4_1.Properties.Resources.resources
+D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\Latihan_4_1\obj\Debug\Latihan_4_1.csproj.GenerateResource.Cache
 D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\Latihan_4_1\obj\Debug\Latihan_4_1.exe
 D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\Latihan_4_1\obj\Debug\Latihan_4_1.pdb
-D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\Latihan_4_1\obj\Debug\Latihan_4_1.Form1.resources

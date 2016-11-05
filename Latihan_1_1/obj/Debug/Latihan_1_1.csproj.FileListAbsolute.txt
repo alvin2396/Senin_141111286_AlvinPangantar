@@ -25,3 +25,6 @@ D:\Kuliah\C# Lanjutan\Senin_141111286_AlvinPangantar_Solution\Latihan_1_1\obj\De
 D:\Kuliah\C# Lanjutan\Senin_141111286_AlvinPangantar_Solution\Latihan_1_1\obj\Debug\Latihan_1_1.csproj.GenerateResource.Cache
 D:\Kuliah\C# Lanjutan\Senin_141111286_AlvinPangantar_Solution\Latihan_1_1\obj\Debug\Tugas_1.exe
 D:\Kuliah\C# Lanjutan\Senin_141111286_AlvinPangantar_Solution\Latihan_1_1\obj\Debug\Tugas_1.pdb
+D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\Latihan_1_1\bin\Debug\Tugas_1.exe.config
+D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\Latihan_1_1\obj\Debug\Tugas_1.exe
+D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\Latihan_1_1\obj\Debug\Tugas_1.pdb
