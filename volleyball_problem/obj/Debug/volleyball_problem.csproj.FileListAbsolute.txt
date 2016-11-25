@@ -1,0 +1,9 @@
+D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\volleyball_problem\bin\Debug\volleyball_problem.exe.config
+D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\volleyball_problem\bin\Debug\volleyball_problem.exe
+D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\volleyball_problem\bin\Debug\volleyball_problem.pdb
+D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\volleyball_problem\obj\Debug\volleyball_problem.csprojResolveAssemblyReference.cache
+D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\volleyball_problem\obj\Debug\volleyball_problem.Form1.resources
+D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\volleyball_problem\obj\Debug\volleyball_problem.Properties.Resources.resources
+D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\volleyball_problem\obj\Debug\volleyball_problem.csproj.GenerateResource.Cache
+D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\volleyball_problem\obj\Debug\volleyball_problem.exe
+D:\Kuliah\C# Lanjutan\repo\Senin_141111286_AlvinPangantar\volleyball_problem\obj\Debug\volleyball_problem.pdb
